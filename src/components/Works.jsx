@@ -39,7 +39,7 @@ const ProjectCard = ({
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
+                src="https://www.citypng.com/public/uploads/preview/web-page-internet-network-white-icon-transparent-background-701751694974331jiucxqlxym.png"
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
@@ -97,4 +97,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

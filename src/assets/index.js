@@ -29,10 +29,19 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import burnout from "./burnout.png";
+import Face from "./Face.png";
+import foodgrant from "./foodgrant.png";
+import videocall from "./videocall.png";
+
 
 export {
   logo,
   backend,
+  burnout,
+  Face,
+  foodgrant,
+  videocall,
   creator,
   mobile,
   web,
