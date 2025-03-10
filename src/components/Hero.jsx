@@ -24,7 +24,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-full h-[300px] sm:h-full">
+      {/* Hide 3D Canvas on Mobile */}
+      <div className="hidden sm:block w-full h-0">
         <ComputersCanvas />
       </div>
 
