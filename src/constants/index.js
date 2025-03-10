@@ -194,153 +194,91 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Crowd safety management",
+    name: "Crowd Safety Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI-powered platform for real-time crowd monitoring, security alerts, and emergency management using computer vision and predictive analytics.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "MERN", color: "blue-text-gradient" },
+      { name: "Machine Learning", color: "green-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: carrent,
     source_code_link: "https://safecrowd.vercel.app/",
   },
   {
-    name: "Anamously group Chat",
+    name: "Anonymously Group Chat",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A real-time anonymous chat platform where users can communicate securely without revealing their identity, ensuring privacy and data security.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "mern", color: "blue-text-gradient" },
+      { name: "Sochet io", color: "green-text-gradient" },
+      { name: "JWT", color: "pink-text-gradient" },
     ],
     image: jobit,
     source_code_link: "https://unknown-chats.web.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Progress Mantra Classes",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An online education platform providing high-quality courses, study materials, and live classes for students, focusing on skill development and competitive exams.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
     ],
     image: tripguide,
     source_code_link: "https://shivam-13.netlify.app/",
   },
-{
-  name: "anamously videocall & chat",
-  description:
-    "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  tags: [
-    {
-      name: "nextjs",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "supabase",
-      color: "green-text-gradient",
-    },
-    {
-      name: "css",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: videocall,
-  source_code_link: "https://vitalsyncs.web.app/",
-},
-{
-  name: "Burnout Buddy",
-  description:
-    "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  tags: [
-    {
-      name: "nextjs",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "supabase",
-      color: "green-text-gradient",
-    },
-    {
-      name: "css",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: burnout,
-  source_code_link: "https://burnoutbuddy.vercel.app/",
-},
-{
-  name: "Food waste management",
-  description:
-    "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  tags: [
-    {
-      name: "nextjs",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "supabase",
-      color: "green-text-gradient",
-    },
-    {
-      name: "css",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: foodgrant,
-  source_code_link: "https://foodgrant.vercel.app/",
-},
-{
-  name: "Face Expression detection",
-  description:
-    "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  tags: [
-    {
-      name: "nextjs",
-      color: "blue-text-gradient",
-    },
-    {
-      name: "supabase",
-      color: "green-text-gradient",
-    },
-    {
-      name: "css",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: Face,
-  source_code_link: "https://faceexpresssions.web.app/",
-},
+  {
+    name: "Anonymous Video Call & Chat",
+    description:
+      "A secure video calling and chat platform that allows users to communicate anonymously with encrypted messaging and real-time connectivity.",
+    tags: [
+      { name: "MERN", color: "blue-text-gradient" },
+      { name: "Webrtc", color: "green-text-gradient" },
+      { name: "Tailwind", color: "pink-text-gradient" },
+    ],
+    image: videocall,
+    source_code_link: "https://vitalsyncs.web.app/",
+  },
+  {
+    name: "Burnout Buddy",
+    description:
+      "A mental health tracker that provides AI-driven stress management tips, mood tracking, and personalized well-being strategies for mobile users.",
+    tags: [
+      { name: "React native", color: "blue-text-gradient" },
+      { name: "Mern", color: "green-text-gradient" },
+      { name: "Mongodb", color: "pink-text-gradient" },
+    ],
+    image: burnout,
+    source_code_link: "https://burnoutbuddy.vercel.app/",
+  },
+  {
+    name: "Food Waste Management",
+    description:
+      "A MERN-based platform that connects restaurants, event organizers, and NGOs to redistribute excess food, reducing waste and helping communities.",
+    tags: [
+      { name: "Mern", color: "blue-text-gradient" },
+      { name: "Tailwind", color: "green-text-gradient" },
+      { name: "Postgresql", color: "pink-text-gradient" },
+    ],
+    image: foodgrant,
+    source_code_link: "https://foodgrant.vercel.app/",
+  },
+  {
+    name: "Face Expression Detection",
+    description:
+      "An AI-powered facial recognition tool that detects and analyzes emotions using deep learning to enhance user experience and mental health insights.",
+    tags: [
+      { name: "Tensorflow", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Python", color: "pink-text-gradient" },
+    ],
+    image: Face,
+    source_code_link: "https://faceexpresssions.web.app/",
+  },
 ];
+
 
 
 export { services, technologies, experiences, testimonials, projects };
